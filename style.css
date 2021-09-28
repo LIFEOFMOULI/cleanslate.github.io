@@ -1,0 +1,116 @@
+body{
+  background-image: linear-gradient(180deg, #b2fefa,#0ed2f7);
+}
+.title{
+  font-family: 'Ephesis', cursive;
+  margin: auto;
+  text-align: center;
+  color: #ffffdd;
+  padding-top: 20px;
+  font-weight: 500;
+}
+.board{
+  margin: 0;
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 35px;
+  box-shadow: rgba(255,0,0,0.5) 0px 4px 40px;
+  background-image: linear-gradient(180deg, #007991,#78ffd6);
+}
+.player1{
+  float: left;
+  /*background: red;*/
+  width: 25%;
+  height: 300px;
+}
+.middle{
+  float: left;
+  /*background: yellow;*/
+  width: 50%;
+  height: 300px;
+}
+.player2{
+  float: left;
+  /*background: blue;*/
+  width: 25%;
+  height: 300px;
+}
+.player1title, .player2title{
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-family: 'Koh Santepheap', cursive;
+}
+.btn{
+  display: block;
+  width: 100px;
+  height:24px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.btn:hover{
+  border-radius: 0px;
+  transform: scale(1.2);
+}
+.btn_set1, .btn_set2{
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+.btn_set1>button{
+  color: #498205;
+  border: solid #498205;
+}
+.btn_set2>button{
+  color: #ff0000;
+  border: solid #ff0000;
+}
+.btn:disabled{
+  background-color: #808080;
+  border-radius:25px;
+}
+.btn:disabled:hover{
+  border-radius:25px;
+  transform: scale(1);
+  cursor:auto;
+}
+.whoseturn{
+  display: none;
+  text-align: center;
+  font-family: 'Bonheur Royale', cursive;
+  color:#a9fffd;
+  font-weight: 100;
+}
+.coins{
+  position: absolute;
+  margin: auto;
+  width: 90%;
+  height:50px;
+  bottom: 5%;
+  left:25%;
+}
+.coins>img{
+  width: 35px;
+  height: auto;
+}
+.start{
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 20%;
+  left:40%;
+  bottom:20%;
+  border: solid #498205;
+  background-color: #498205;
+  border-radius: 10px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}

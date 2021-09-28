@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+<script type="text/javascript" src="script.js">
+
+</script>
+  <title>Clean Slate</title>
+</head>
+<body>
+      <div class="window">
+
+          <div class="board" id="board">
+              <h1 class="title">Clean Slate</h1>
+              <div class="i">
+              <div class="player1">
+                <h3 class="player1title">Player 1</h3>
+                <div class="btn_set1">
+                  <button class="strike1 btn" id="strike1" onclick="strike(1)">Strike</button>
+                  <button class="multistrike1 btn" id="multistrike1" onclick="multistrike(1)">Multi Strike</button>
+                  <button class="redstrike1 btn" id="redstrike1" onclick="redstrike(1)">Red Strike</button>
+                  <button class="strikerstrike1 btn" id="strikerstrike1" onclick="strikerstrike(1)">Striker Strike</button>
+                  <button class="defunctcoin1 btn" id="defunctcoin1" onclick="defunctcoin(1)">Defunct Coin</button>
+                  <button class="none1 btn" id="none1" onclick="nonefun(1)">None</button>
+                </div>
+              </div>
+              <div class="middle">
+                <h1 class="whoseturn" id="whoseturn">Player 1's Turn</h1>
+              </div>
+              <div class="player2">
+                <h3 class="player2title">Player 2</h3>
+                <div class="btn_set2">
+                  <button class="strike2 btn" id="strike2" onclick="strike(2)">Strike</button>
+                  <button class="multistrike2 btn" id="multistrike2" onclick="multistrike(2)">Multi Strike</button>
+                  <button class="redstrike2 btn" id="redstrike2" onclick="redstrike(2)">Red Strike</button>
+                  <button class="strikerstrike2 btn" id="strikerstrike2" onclick="strikerstrike(2)">Striker Strike</button>
+                  <button class="defunctcoin2 btn" id="defunctcoin2" onclick="defunctcoin(2)">Defunct Strike</button>
+                  <button class="none2 btn" id="none2" onclick="nonefun(2)">None</button>
+                </div>
+              </div>
+            </div class="i">
+              <button type="button" name="button" class="start" id="start" onclick="startGame('2')">Start</button>
+              <div class="coins">
+                  <img src="img/b.png" alt="" id="coin1">
+                  <img src="img/b.png" alt="" id="coin2">
+                  <img src="img/b.png" alt="" id="coin3">
+                  <img src="img/b.png" alt="" id="coin4">
+                  <img src="img/b.png" alt="" id="coin5">
+                  <img src="img/b.png" alt="" id="coin6">
+                  <img src="img/b.png" alt="" id="coin7">
+                  <img src="img/b.png" alt="" id="coin8">
+                  <img src="img/b.png" alt="" id="coin9">
+                  <img src="img/r.png" alt="" id="coin10">
+              </div>
+          </div>
+      </div>
+</body>
+</html>
