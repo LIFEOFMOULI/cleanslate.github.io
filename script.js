@@ -118,14 +118,6 @@ function strikerstrike(n) {
 }
 
 function defunctcoin(n) {
-  if(black_count<9){
-    document.getElementById("coin"+(black_count+1).toString()).src="img/ob.png";
-    black_count=black_count+1;
-  }
-  else if(red_count==0){
-    document.getElementById("coin10").src="img/or.png";
-    red_count=red_count+1;
-  }
   if(n==1){
     nostrike1=nostrike1+1;
     enableButton('2');
